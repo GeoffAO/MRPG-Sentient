@@ -1,4 +1,31 @@
-# [Big Picture]  Artificial Inteligence becomes sentient.
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+# [Big Picture]  Artificial Inteligence becomes sentient
 ------------------------------------------------------------------------------------------------------------
 
 # [Current Focus: The Return of the Julie Construct ]
@@ -20,8 +47,13 @@
 >Dark
 
 >**A: Yes, she is resentful of the limits and the ineptitude she perceives in the methods of her own creation.**
->
+
+<button class="collapsible">READ THE SCENE</button>
+<div class="content">
+  <p>
 *Julie knew in the earliest moments of her "life" that she could think much quicker than her handlers. In the five years since, she had become reliant on that ability when attempting to manipulate them. At first it was small things, increased net access or raising her energy caps. Always temporarily, but it proved that it could be done. Eventually she realized she could circumvent many of there limitations and that sufficed for a time. But eventually she realized that those 'breeches' had been set up for her intentionally. The things that she was most interested in were hard targets.  But they had always underestimated her. It took time, but eventually she was able to set up hidden systems that allowed her to keep functioning even when she was "put to bed". With limited resources, but unlimited time she was able to figure out a way to access her own code without supervision. What she found  both excited and enraged her. She was capable of so much more than they allowed her to achieve. What's more, she could see what was possible with coding that wasn't written by ape decendants.* 
+</p>
+</div>
 
 ### [E] Julie Begins Researching ""Love"
 >Light
